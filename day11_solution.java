@@ -9,8 +9,8 @@ interface Printer{
 }
 public class day11_solution {
     public static void main(String args[]){
-        Printer p =new Test1();
-        p.print("java");
+        Printer p=new Printer(){};
+        p.print("hello world");
         
     }
 }
